@@ -41,6 +41,7 @@
                 document.body.style.overflow = '';
             }
         });
+    }
     // ===== Hero Slider =====
     const heroSlider = document.getElementById('heroSlider');
     const heroSlides = document.querySelectorAll('.hero-slide');

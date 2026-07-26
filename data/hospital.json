@@ -1,0 +1,60 @@
+{
+  "name": "Faridpur Green Hospital Ltd",
+  "name_bn": "ফরিদপুর গ্রিন হাসপাতাল লিমিটেড",
+  "short_name": "Green Hospital",
+  "tagline": "Best Quality Medical Services. Best Doctors and Nurses.",
+  "tagline_bn": "মানসম্মত চিকিৎসা সেবা, অভিজ্ঞ বিশেষজ্ঞ ও আধুনিক প্রযুক্তি",
+  "description": "Faridpur Green Hospital Ltd is a leading private hospital in Faridpur, Bangladesh providing modern healthcare services with experienced specialist doctors, skilled nurses, and state-of-the-art technology. Best Quality Medical Services, Best Doctors and Nurses, All tests run by Expert Pathologist and Technologist. Clean and Joyful environment.",
+  "description_bn": "ফরিদপুর গ্রিন হাসপাতাল লিমিটেড ফরিদপুরের একটি শীর্ষস্থানীয় বেসরকারি হাসপাতাল। আধুনিক বিশেষজ্ঞ ডাক্তার, ডিপ্লোমা নার্স, অভিজ্ঞ স্বাস্থ্যকর্মী ও সর্বাধুনিক প্রযুক্তির সমন্বয়ে ডিজিটাল পদ্ধতিতে চিকিৎসা সেবা প্রদান করা হয়।",
+  "established": "2010",
+  "address": {
+    "street": "Kabi Jasim Uddin Road, Alipur",
+    "city": "Faridpur Sadar",
+    "district": "Faridpur",
+    "country": "Bangladesh",
+    "postcode": "7800",
+    "full": "Kabi Jasim Uddin Road, Alipur, Faridpur Sadar, Faridpur, Bangladesh"
+  },
+  "contact": {
+    "emergency": "+8801988118833",
+    "emergency_formatted": "01988-118833",
+    "phone": "+8801711461413",
+    "phone_formatted": "01711-461413",
+    "email": "info@greenhospitalbd.com",
+    "facebook": "https://www.facebook.com/p/Faridpur-Green-Hospital-Ltd-100067848113453/",
+    "facebook_handle": "Faridpur Green Hospital Ltd",
+    "website": "http://www.greenhospitalbd.com/"
+  },
+  "hours": {
+    "emergency": "24/7 Open",
+    "pharmacy": "24/7 Open",
+    "diagnostic_lab": "8:00 AM - 10:00 PM",
+    "outdoor": "9:00 AM - 9:00 PM",
+    "administration": "9:00 AM - 6:00 PM"
+  },
+  "facilities": {
+    "operation_theaters": 3,
+    "icu_beds": "Available",
+    "nicu_beds": "Available",
+    "cabins": "AC / Non-AC",
+    "pharmacy": "24 Hours",
+    "ambulance": "24 Hours",
+    "diagnostic_lab": true,
+    "wifi": true,
+    "parking": true
+  },
+  "stats": {
+    "doctors": 30,
+    "departments": 12,
+    "patients_yearly": 50000,
+    "years_service": 15
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/p/Faridpur-Green-Hospital-Ltd-100067848113453/",
+    "facebook_likes": 4852
+  },
+  "geo": {
+    "latitude": 23.6017,
+    "longitude": 89.8333
+  }
+}

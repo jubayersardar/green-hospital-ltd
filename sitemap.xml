@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://greenhospitalbd.com/</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://greenhospitalbd.com/images/hospital-hero.jpg</image:loc>
+            <image:title>Faridpur Green Hospital Ltd</image:title>
+        </image:image>
+    </url>
+
+    <!-- About -->
+    <url>
+        <loc>https://greenhospitalbd.com/about.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Services -->
+    <url>
+        <loc>https://greenhospitalbd.com/services.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Doctors List -->
+    <url>
+        <loc>https://greenhospitalbd.com/doctors.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Contact -->
+    <url>
+        <loc>https://greenhospitalbd.com/contact.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Doctor Profile Pages -->
+    <url>
+        <loc>https://greenhospitalbd.com/doctors/prof-dr-md-golam-kabir.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://greenhospitalbd.com/images/doctors/prof-dr-md-golam-kabir.jpg</image:loc>
+            <image:title>Professor Dr. Md. Golam Kabir - Orthopedic Specialist</image:title>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://greenhospitalbd.com/doctors/dr-md-sahidur-rahman-milon.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://greenhospitalbd.com/doctors/dr-nh-tushar.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://greenhospitalbd.com/doctors/dr-shakila-zaman.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://greenhospitalbd.com/doctors/dr-md-dulal-hossain.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>

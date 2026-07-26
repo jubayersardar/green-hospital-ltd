@@ -1,0 +1,693 @@
+/* ============================================
+   Doctor Profile Page Styles
+   Faridpur Green Hospital Ltd
+   ============================================ */
+
+.doctor-profile-hero {
+    background: linear-gradient(135deg, #f0f9f4 0%, #e6f5ec 100%);
+    padding: 4rem 0 3rem;
+    margin-top: 110px;
+    position: relative;
+    overflow: hidden;
+}
+
+.doctor-profile-hero::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(10,141,74,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.doctor-profile-grid {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 3rem;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+}
+
+.doctor-profile-image {
+    position: sticky;
+    top: 130px;
+}
+
+.doctor-image-wrapper {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+    border: 4px solid white;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.doctor-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.verified-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: linear-gradient(135deg, #1877f2, #0a8d4a);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.verified-badge i {
+    font-size: 0.85rem;
+}
+
+.doctor-profile-info {
+    padding-top: 1rem;
+}
+
+.doctor-profile-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.specialty-tag, .experience-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: white;
+    color: var(--clr-primary);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid #e0e0e0;
+}
+
+.experience-tag {
+    color: #d97706;
+    background: #fef3c7;
+    border-color: #fde68a;
+}
+
+.doctor-profile-name {
+    font-family: 'Poppins', 'Noto Sans Bengali', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--clr-dark);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+}
+
+.doctor-profile-name-en {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #555;
+    margin: 0 0 1.5rem 0;
+}
+
+.doctor-designation, .doctor-affiliation {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 1rem;
+    color: #444;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.doctor-designation i, .doctor-affiliation i {
+    color: var(--clr-primary);
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+.doctor-qualifications {
+    margin: 1.5rem 0;
+}
+
+.doctor-qualifications h3 {
+    font-size: 1rem;
+    margin: 0 0 0.75rem 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.doctor-qualifications h3 i {
+    color: var(--clr-primary);
+}
+
+.qualifications-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.qualification-pill {
+    background: linear-gradient(135deg, #0a8d4a, #00a651);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(10,141,74,0.25);
+}
+
+.quick-schedule-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-left: 4px solid var(--clr-primary);
+    display: inline-block;
+    min-width: 280px;
+}
+
+.schedule-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-header i {
+    color: var(--clr-primary);
+}
+
+.schedule-day {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--clr-dark);
+    margin-bottom: 0.25rem;
+}
+
+.schedule-time {
+    font-size: 1rem;
+    color: var(--clr-primary);
+    font-weight: 600;
+}
+
+.doctor-cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.doctor-cta-buttons .btn {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Detail Sections */
+.doctor-details-section {
+    padding: 4rem 0;
+    background: #fafafa;
+}
+
+.doctor-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 2.5rem;
+    align-items: start;
+}
+
+.detail-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.detail-card:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+
+.detail-card-title {
+    font-family: 'Poppins', 'Noto Sans Bengali', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--clr-dark);
+    margin: 0 0 1.25rem 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.detail-card-title i {
+    color: var(--clr-primary);
+    font-size: 1.1rem;
+}
+
+.doctor-bio {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+}
+
+.specialties-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.specialty-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #e8f5ed;
+    color: #0a6e3a;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #c8e6d2;
+}
+
+.specialty-pill i {
+    color: var(--clr-primary);
+    font-size: 0.8rem;
+}
+
+.expertise-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem 1.5rem;
+}
+
+.expertise-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0.5rem 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.expertise-list li i {
+    color: var(--clr-primary);
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
+.schedule-card {
+    background: linear-gradient(135deg, #f0f9f4 0%, #ffffff 100%);
+    border-left: 4px solid var(--clr-primary);
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.schedule-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.schedule-item > i {
+    background: var(--clr-primary);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+}
+
+.schedule-item strong {
+    display: block;
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.schedule-item p {
+    margin: 0;
+    color: var(--clr-dark);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.schedule-item a {
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+.schedule-note {
+    background: #fff8e1;
+    border-left: 3px solid #ffa000;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5d4037;
+    font-size: 0.9rem;
+}
+
+.schedule-note i {
+    color: #ffa000;
+    font-size: 1.1rem;
+}
+
+/* Sidebar */
+.doctor-sidebar {
+    position: sticky;
+    top: 130px;
+}
+
+.sidebar-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.sidebar-card h3 {
+    font-family: 'Poppins', 'Noto Sans Bengali', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--clr-dark);
+    margin: 0 0 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar-card h3 i {
+    color: var(--clr-primary);
+}
+
+.appointment-card {
+    background: linear-gradient(135deg, #0a8d4a 0%, #00a651 100%);
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.appointment-card h3 {
+    color: white;
+    justify-content: center;
+}
+
+.appointment-card p {
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.appointment-card .btn-whatsapp {
+    background: #25d366;
+    color: white;
+    border: none;
+}
+
+.appointment-card .btn-whatsapp:hover {
+    background: #1da851;
+    transform: translateY(-2px);
+}
+
+.appointment-card .btn-outline {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.appointment-card .btn-outline:hover {
+    background: white;
+    color: var(--clr-primary);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.btn-block:last-child {
+    margin-bottom: 0;
+}
+
+.language-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-list li {
+    padding: 0.4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+}
+
+.language-list li i {
+    color: var(--clr-primary);
+}
+
+.hospital-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hospital-info-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.hospital-info-list li i {
+    color: var(--clr-primary);
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+.hospital-info-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.hospital-info-list a:hover {
+    color: var(--clr-primary);
+}
+
+.share-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.share-btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.share-btn:hover {
+    transform: translateY(-3px);
+}
+
+.share-btn.facebook { background: #1877f2; }
+.share-btn.whatsapp { background: #25d366; }
+.share-btn.copy-link { background: #6c757d; }
+
+/* Other Doctors Section */
+.other-doctors-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.section-header {
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-family: 'Poppins', 'Noto Sans Bengali', sans-serif;
+    font-size: 1.8rem;
+    color: var(--clr-dark);
+    margin: 0 0 0.5rem 0;
+}
+
+.section-header p {
+    color: #666;
+    margin: 0;
+}
+
+.other-doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.other-doctor-card {
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s;
+    display: block;
+}
+
+.other-doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-color: var(--clr-primary);
+}
+
+.other-doctor-img {
+    aspect-ratio: 1;
+    background: #f0f9f4;
+    overflow: hidden;
+}
+
+.other-doctor-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.other-doctor-info {
+    padding: 1rem;
+}
+
+.other-doctor-info h4 {
+    font-size: 0.95rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--clr-dark);
+    font-weight: 600;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.other-deg {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0 0 0.25rem 0;
+}
+
+.other-spec {
+    font-size: 0.85rem;
+    color: var(--clr-primary);
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 992px) {
+    .doctor-profile-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .doctor-profile-image {
+        position: static;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .doctor-details-grid {
+        grid-template-columns: 1fr;
+    }
+    .doctor-sidebar {
+        position: static;
+    }
+    .expertise-list {
+        grid-template-columns: 1fr;
+    }
+    .schedule-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .doctor-profile-hero {
+        padding: 2rem 0;
+        margin-top: 90px;
+    }
+    .doctor-profile-name {
+        font-size: 1.7rem;
+    }
+    .doctor-profile-name-en {
+        font-size: 1.1rem;
+    }
+    .doctor-cta-buttons .btn {
+        min-width: 100%;
+    }
+    .detail-card {
+        padding: 1.5rem;
+    }
+    .other-doctors-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .other-doctors-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Print styles */
+@media print {
+    .top-bar, .header, .whatsapp-float, .scroll-to-top, .footer, .other-doctors-section, .doctor-cta-buttons {
+        display: none !important;
+    }
+    .doctor-profile-hero {
+        margin-top: 0;
+        background: white;
+    }
+    body { color: black; }
+    .detail-card { box-shadow: none; border: 1px solid #ccc; }
+}

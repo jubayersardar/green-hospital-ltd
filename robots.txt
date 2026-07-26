@@ -1,0 +1,19 @@
+# Robots.txt for Faridpur Green Hospital Ltd
+User-agent: *
+Allow: /
+Allow: /doctors/
+Allow: /data/
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /tools/
+Disallow: /data/submissions/
+Disallow: /private/
+Disallow: /*.json$
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://greenhospitalbd.com/sitemap.xml

@@ -1,0 +1,79 @@
+{
+  "name": "Faridpur Green Hospital Ltd",
+  "short_name": "Green Hospital",
+  "description": "Official website of Faridpur Green Hospital Ltd - 24/7 emergency service, expert doctors, modern diagnostic lab, 3 operation theaters in Faridpur, Bangladesh",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a8d4a",
+  "background_color": "#ffffff",
+  "lang": "bn-BD",
+  "dir": "ltr",
+  "scope": "/",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    {
+      "src": "images/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "অ্যাপয়েন্টমেন্ট নিন",
+      "short_name": "Appointment",
+      "description": "Book a doctor appointment",
+      "url": "/contact.html#appointment",
+      "icons": [{ "src": "images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "ডাক্তার তালিকা",
+      "short_name": "Doctors",
+      "description": "View all specialist doctors",
+      "url": "/doctors.html",
+      "icons": [{ "src": "images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "জরুরি কল",
+      "short_name": "Emergency",
+      "description": "Call emergency hotline",
+      "url": "tel:01988118833",
+      "icons": [{ "src": "images/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "share_target": {
+    "action": "/contact.html",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "name",
+      "text": "message",
+      "url": "url"
+    }
+  }
+}

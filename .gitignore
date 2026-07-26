@@ -1,0 +1,14 @@
+# Dependencies & Temp files
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# Antigravity temp files
+.tempmediaStorage/

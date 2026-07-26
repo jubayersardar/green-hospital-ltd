@@ -1,0 +1,914 @@
+{
+  "_meta": {
+    "last_updated": "2026-07-26",
+    "data_status": "ALL 16 DOCTORS UPDATED WITH LOCAL BANGLADESHI DOCTOR DEMO PHOTOS.",
+    "verified_count": 5,
+    "demo_count": 11,
+    "primary_source": "https://www.findoutdoctor.com/2023/10/faridpur-green-hospital.html",
+    "image_source_note": "Verified doctors use AI-generated local images. Demo doctors use randomuser.me API for professional placeholder photos that can be replaced.",
+    "how_to_replace": "To replace a demo doctor with real data, edit this file (update name, qualifications, image path) and place the real photo in doctors/images/[slug].jpg. Then run: python tools/generate_doctor_pages.py"
+  },
+  "doctors": [
+    {
+      "id": "prof-dr-md-golam-kabir",
+      "slug": "prof-dr-md-golam-kabir",
+      "name_bn": "অধ্যাপক ডা. মো. গোলাম কবীর",
+      "name_en": "Professor Dr. Md. Golam Kabir",
+      "title": "Professor",
+      "designation_bn": "অর্থোপেডিকস, রিউমাটিজম, ট্রমা ও প্যারালাইসিস বিশেষজ্ঞ",
+      "designation_en": "Orthopedics, Rheumatism, Trauma & Paralysis Specialist",
+      "affiliation_bn": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ হাসপাতাল, ঢাকা (সাবেক অধ্যাপক)",
+      "affiliation_en": "Shaheed Suhrawardy Medical College Hospital, Dhaka (Ex-Professor)",
+      "qualifications": [
+        "MBBS",
+        "M.D.",
+        "FPGC (Ortho-Surgery)"
+      ],
+      "specialties_bn": [
+        "অর্থোপেডিকস",
+        "রিউমাটিজম",
+        "ট্রমা",
+        "প্যারালাইসিস"
+      ],
+      "specialties_en": [
+        "Orthopedics",
+        "Rheumatism",
+        "Trauma",
+        "Paralysis"
+      ],
+      "expertise": [
+        "Bone & Joint Surgery",
+        "Fracture Management",
+        "Spinal Disorders",
+        "Arthritis Treatment",
+        "Sports Injury",
+        "Trauma Care"
+      ],
+      "department": "orthopedics",
+      "department_bn": "অর্থোপেডিকস ও ট্রমা",
+      "experience_years": 25,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Friday",
+        "day_bn": "প্রতি শুক্রবার",
+        "time_en": "9:00 AM - 6:00 PM",
+        "time_bn": "সকাল ৯:০০ - সন্ধ্যা ৬:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা (প্রাথমিক)",
+      "image": "images/doctors/prof-dr-md-golam-kabir.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Prof.+Dr.+Golam+Kabir",
+      "verified": true,
+      "source": "https://www.findoutdoctor.com/2023/10/faridpur-green-hospital.html",
+      "bio_bn": "অধ্যাপক ডা. মো. গোলাম কবীর একজন বিশিষ্ট অর্থোপেডিক সার্জন। তিনি শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ হাসপাতালের অর্থোপেডিকস বিভাগের সাবেক অধ্যাপক। হাড় ভাঙা, জয়েন্ট পেইন, রিউমাটিজম, ট্রমা ও প্যারালাইসিস চিকিৎসায় তাঁর দীর্ঘ অভিজ্ঞতা রয়েছে।",
+      "bio_en": "Professor Dr. Md. Golam Kabir is a distinguished orthopedic surgeon and former Professor of Orthopedics at Shaheed Suhrawardy Medical College Hospital, Dhaka. He specializes in bone fractures, joint pain, rheumatism, trauma, and paralysis treatment with over two decades of clinical excellence."
+    },
+    {
+      "id": "dr-md-sahidur-rahman-milon",
+      "slug": "dr-md-sahidur-rahman-milon",
+      "name_bn": "ডা. মো. শহিদুর রহমান (মিলন)",
+      "name_en": "Dr. Md. Sahidur Rahman (Milon)",
+      "title": "Doctor",
+      "designation_bn": "গ্যাস্ট্রোএন্টারোলজি, মেডিসিন ও হেমাটোলজি বিশেষজ্ঞ",
+      "designation_en": "Gastroenterology, Medicine & Hematology Specialist",
+      "affiliation_bn": "শেখ রাসেল জাতীয় গ্যাস্ট্রোলিভার ইনস্টিটিউট ও হাসপাতাল, মহাখালী, ঢাকা",
+      "affiliation_en": "Sheikh Russell National Gastroliver Institute and Hospital, Mohakhali, Dhaka",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "DBS&T (BSMMU)",
+        "MACP (USA)",
+        "FCPS (Medicine)",
+        "FCPS (Gastroenterology)"
+      ],
+      "specialties_bn": [
+        "গ্যাস্ট্রোএন্টারোলজি",
+        "মেডিসিন",
+        "হেমাটোলজি"
+      ],
+      "specialties_en": [
+        "Gastroenterology",
+        "Medicine",
+        "Hematology"
+      ],
+      "expertise": [
+        "Liver Diseases",
+        "Gastric & Peptic Ulcer",
+        "Hepatitis B & C",
+        "Digestive Disorders",
+        "Diabetes Management",
+        "Blood Disorders"
+      ],
+      "department": "gastroenterology",
+      "department_bn": "গ্যাস্ট্রোএন্টারোলজি ও মেডিসিন",
+      "experience_years": 15,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Friday",
+        "day_bn": "প্রতি শুক্রবার",
+        "time_en": "2:00 PM - 8:00 PM",
+        "time_bn": "বিকাল ২:০০ - রাত ৮:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা (প্রাথমিক)",
+      "image": "images/doctors/dr-md-sahidur-rahman-milon.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Milon",
+      "verified": true,
+      "source": "https://www.findoutdoctor.com/2023/10/faridpur-green-hospital.html",
+      "bio_bn": "ডা. মো. শহিদুর রহমান (মিলন) একজন দক্ষ গ্যাস্ট্রোএন্টারোলজি ও মেডিসিন বিশেষজ্ঞ। তিনি শেখ রাসেল জাতীয় গ্যাস্ট্রোলিভার ইনস্টিটিউট ও হাসপাতাল, মহাখালী, ঢাকায় কর্মরত। লিভার রোগ, গ্যাস্ট্রিক সমস্যা, হেপাটাইটিস এবং রক্তরোগ চিকিৎসায় তাঁর বিশেষ দক্ষতা রয়েছে।",
+      "bio_en": "Dr. Md. Sahidur Rahman (Milon) is a skilled specialist in Gastroenterology and Medicine, currently affiliated with Sheikh Russell National Gastroliver Institute and Hospital, Mohakhali, Dhaka. His expertise spans liver diseases, gastric problems, hepatitis treatment, and hematological disorders."
+    },
+    {
+      "id": "dr-nh-tushar",
+      "slug": "dr-nh-tushar",
+      "name_bn": "ডা. এন. এইচ. তুষার",
+      "name_en": "Dr. N. H. Tushar",
+      "title": "Doctor",
+      "designation_bn": "নিউরোসার্জন (মস্তিষ্ক, মেরুদণ্ড ও স্ট্রোক বিশেষজ্ঞ)",
+      "designation_en": "Neurosurgeon (Brain, Spine & Stroke Specialist)",
+      "affiliation_bn": "জাতীয় নিউরোসায়েন্স ইনস্টিটিউট ও হাসপাতাল, ঢাকা",
+      "affiliation_en": "National Institute of Neurosciences and Hospital, Dhaka",
+      "qualifications": [
+        "MBBS",
+        "BCS (Sw)",
+        "PGT (Pain Management)",
+        "FCPS (FP)",
+        "M.S. (Neurosurgery)"
+      ],
+      "specialties_bn": [
+        "স্ট্রোক",
+        "মস্তিষ্ক",
+        "নার্ভ",
+        "মেরুদণ্ড",
+        "প্যারালাইসিস"
+      ],
+      "specialties_en": [
+        "Stroke",
+        "Brain",
+        "Nerve",
+        "Spine",
+        "Paralysis"
+      ],
+      "expertise": [
+        "Brain Surgery",
+        "Spinal Surgery",
+        "Stroke Management",
+        "Head Injury",
+        "Neuropathic Pain",
+        "Paralysis Treatment"
+      ],
+      "department": "neurosurgery",
+      "department_bn": "নিউরোসার্জারি",
+      "experience_years": 12,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Friday",
+        "day_bn": "প্রতি শুক্রবার",
+        "time_en": "8:30 AM - 2:00 PM",
+        "time_bn": "সকাল ৮:৩০ - দুপুর ২:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা (প্রাথমিক)",
+      "image": "images/doctors/dr-nh-tushar.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Tushar",
+      "verified": true,
+      "source": "https://www.findoutdoctor.com/2023/10/faridpur-green-hospital.html",
+      "bio_bn": "ডা. এন. এইচ. তুষার একজন অভিজ্ঞ নিউরোসার্জন। তিনি জাতীয় নিউরোসায়েন্স ইনস্টিটিউট ও হাসপাতাল, ঢাকায় কর্মরত। স্ট্রোক, মস্তিষ্ক, নার্ভ, মেরুদণ্ড ও প্যারালাইসিস চিকিৎসায় বিশেষজ্ঞ।",
+      "bio_en": "Dr. N. H. Tushar is an experienced neurosurgeon affiliated with the National Institute of Neurosciences and Hospital, Dhaka. He specializes in the treatment of stroke, brain, nerve, spine, and paralysis conditions with comprehensive neurosurgical expertise."
+    },
+    {
+      "id": "dr-shakila-zaman",
+      "slug": "dr-shakila-zaman",
+      "name_bn": "ডা. শাকিলা জামান",
+      "name_en": "Dr. Shakila Zaman",
+      "title": "Doctor",
+      "designation_bn": "চর্মরোগ, যৌনরোগ ও এলার্জি বিশেষজ্ঞ",
+      "designation_en": "Dermatologist, Venereologist and Allergist",
+      "affiliation_bn": "শেখ রাসেল জাতীয় গ্যাস্ট্রোলিভার ইনস্টিটিউট ও হাসপাতাল, ঢাকা",
+      "affiliation_en": "Sheikh Russell National Gastroliver Institute and Hospital, Dhaka",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "MD (Dermatology & Venereology)",
+        "CCD (Bardem)",
+        "CMU (DU)"
+      ],
+      "specialties_bn": [
+        "চর্মরোগ",
+        "যৌনরোগ",
+        "এলার্জি"
+      ],
+      "specialties_en": [
+        "Dermatology",
+        "Venereology",
+        "Allergy"
+      ],
+      "expertise": [
+        "Skin Diseases",
+        "Sexually Transmitted Diseases",
+        "Allergic Conditions",
+        "Acne Treatment",
+        "Eczema & Psoriasis",
+        "Cosmetic Dermatology"
+      ],
+      "department": "dermatology",
+      "department_bn": "চর্ম, যৌন ও এলার্জি",
+      "experience_years": 10,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Thursday",
+        "day_bn": "প্রতি বৃহস্পতিবার",
+        "time_en": "10:00 AM - 1:00 PM",
+        "time_bn": "সকাল ১০:০০ - দুপুর ১:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা (প্রাথমিক)",
+      "image": "images/doctors/dr-shakila-zaman.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Shakila+Zaman",
+      "verified": true,
+      "source": "https://www.findoutdoctor.com/2023/10/faridpur-green-hospital.html",
+      "bio_bn": "ডা. শাকিলা জামান একজন দক্ষ চর্মরোগ, যৌনরোগ ও এলার্জি বিশেষজ্ঞ। তিনি শেখ রাসেল জাতীয় গ্যাস্ট্রোলিভার ইনস্টিটিউট ও হাসপাতাল, ঢাকায় কর্মরত। চর্মরোগ, যৌনরোগ ও বিভিন্ন এলার্জিজনিত সমস্যার আধুনিক চিকিৎসা প্রদান করেন।",
+      "bio_en": "Dr. Shakila Zaman is a skilled Dermatologist, Venereologist, and Allergist affiliated with Sheikh Russell National Gastroliver Institute and Hospital, Dhaka. She provides modern treatment for skin diseases, sexually transmitted infections, and various allergic conditions."
+    },
+    {
+      "id": "dr-md-dulal-hossain",
+      "slug": "dr-md-dulal-hossain",
+      "name_bn": "ডা. মো. দুলাল হোসেন",
+      "name_en": "Dr. Md. Dulal Hossain",
+      "title": "Doctor",
+      "designation_bn": "অভিজ্ঞ হোমিওপ্যাথি চিকিৎসক",
+      "designation_en": "Experienced Homeopathic Practitioner",
+      "affiliation_bn": "ঢাকা বিশ্ববিদ্যালয় (DHMS)",
+      "affiliation_en": "University of Dhaka (DHMS)",
+      "qualifications": [
+        "DHMS (Dhaka)"
+      ],
+      "specialties_bn": [
+        "হোমিওপ্যাথি",
+        "দীর্ঘস্থায়ী রোগ",
+        "এলার্জি"
+      ],
+      "specialties_en": [
+        "Homeopathy",
+        "Chronic Diseases",
+        "Allergy"
+      ],
+      "expertise": [
+        "Chronic Skin Diseases",
+        "Allergic Disorders",
+        "Respiratory Issues",
+        "Digestive Problems",
+        "Joint & Bone Disorders",
+        "Hair & Scalp Issues"
+      ],
+      "department": "homeopathy",
+      "department_bn": "হোমিওপ্যাথি",
+      "experience_years": 20,
+      "languages": [
+        "Bangla"
+      ],
+      "schedule": {
+        "day_en": "Daily",
+        "day_bn": "প্রতিদিন",
+        "time_en": "9:00 AM - 9:00 PM",
+        "time_bn": "সকাল ৯:০০ - রাত ৯:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৩০০ টাকা",
+      "image": "images/doctors/dr-md-dulal-hossain.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Dulal+Hossain",
+      "verified": false,
+      "source": "Existing site data",
+      "bio_bn": "ডা. মো. দুলাল হোসেন একজন অভিজ্ঞ হোমিওপ্যাথি চিকিৎসক। দীর্ঘদিন ধরে হোমিওপ্যাথি চিকিৎসা সেবা প্রদান করে আসছেন। দীর্ঘস্থায়ী রোগ ও এলার্জিজনিত সমস্যায় হোমিওপ্যাথিক চিকিৎসা বিশেষ কার্যকর।",
+      "bio_en": "Dr. Md. Dulal Hossain is an experienced homeopathic practitioner providing homeopathic treatment for many years. Homeopathic treatment is particularly effective for chronic diseases and allergic conditions."
+    },
+    {
+      "id": "dr-md-kamrul-hasan-cardiology",
+      "slug": "dr-md-kamrul-hasan-cardiology",
+      "name_bn": "ডা. মো. কামরুল হাসান",
+      "name_en": "Dr. Md. Kamrul Hasan",
+      "title": "Doctor",
+      "designation_bn": "কার্ডিওলজি ও মেডিসিন বিশেষজ্ঞ",
+      "designation_en": "Cardiology & Medicine Specialist",
+      "affiliation_bn": "জাতীয় হৃদরোগ ইনস্টিটিউট ও হাসপাতাল, ঢাকা",
+      "affiliation_en": "National Institute of Cardiovascular Diseases (NICVD), Dhaka",
+      "qualifications": [
+        "MBBS (DMC)",
+        "BCS (Health)",
+        "MD (Cardiology)",
+        "FCPS (Medicine)"
+      ],
+      "specialties_bn": [
+        "কার্ডিওলজি",
+        "মেডিসিন",
+        "হৃদরোগ"
+      ],
+      "specialties_en": [
+        "Cardiology",
+        "Medicine",
+        "Heart Disease"
+      ],
+      "expertise": [
+        "Heart Disease Treatment",
+        "Hypertension",
+        "ECG & Echo",
+        "Chest Pain",
+        "Heart Failure",
+        "Cardiac Risk Assessment"
+      ],
+      "department": "cardiology",
+      "department_bn": "কার্ডিওলজি",
+      "experience_years": 14,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Saturday & Wednesday",
+        "day_bn": "প্রতি শনিবার ও বুধবার",
+        "time_en": "4:00 PM - 8:00 PM",
+        "time_bn": "বিকাল ৪:০০ - রাত ৮:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৬০০ টাকা",
+      "image": "images/doctors/dr-md-abdul-hakim-medicine.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Kamrul+Hasan",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. মো. কামরুল হাসান একজন অভিজ্ঞ কার্ডিওলজি ও মেডিসিন বিশেষজ্ঞ। তিনি জাতীয় হৃদরোগ ইনস্টিটিউট ও হাসপাতাল (NICVD), ঢাকায় কর্মরত। হৃদরোগ, উচ্চ রক্তচাপ, বুক ব্যথা ও হার্ট ফেইলিউর চিকিৎসায় বিশেষ দক্ষতা রাখেন।",
+      "bio_en": "Dr. Md. Kamrul Hasan is an experienced Cardiology and Medicine Specialist affiliated with the National Institute of Cardiovascular Diseases (NICVD), Dhaka. He specializes in the treatment of heart disease, hypertension, chest pain, and heart failure."
+    },
+    {
+      "id": "dr-fahmida-jesmin",
+      "slug": "dr-fahmida-jesmin",
+      "name_bn": "ডা. ফাহমিদা জেসমিন",
+      "name_en": "Dr. Fahmida Jesmin",
+      "title": "Doctor",
+      "designation_bn": "গাইনি ও প্রসূতি বিশেষজ্ঞ, ল্যাপারোস্কপিক সার্জন",
+      "designation_en": "Gynaecology & Obstetrics Specialist, Laparoscopic Surgeon",
+      "affiliation_bn": "বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় (BSMMU)",
+      "affiliation_en": "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "FCPS (Gynae & Obs)",
+        "MRCOG (London)"
+      ],
+      "specialties_bn": [
+        "গাইনি",
+        "প্রসূতি",
+        "ল্যাপারোস্কপিক সার্জারি"
+      ],
+      "specialties_en": [
+        "Gynaecology",
+        "Obstetrics",
+        "Laparoscopic Surgery"
+      ],
+      "expertise": [
+        "Antenatal Care",
+        "Normal & Cesarean Delivery",
+        "Infertility",
+        "Uterine Surgery",
+        "PCOS",
+        "Women's Health"
+      ],
+      "department": "gynecology",
+      "department_bn": "গাইনি ও প্রসূতি",
+      "experience_years": 12,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Sunday & Tuesday",
+        "day_bn": "প্রতি রবিবার ও মঙ্গলবার",
+        "time_en": "3:00 PM - 7:00 PM",
+        "time_bn": "বিকাল ৩:০০ - সন্ধ্যা ৭:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা",
+      "image": "images/doctors/dr-sharmin-akter-gynae.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Fahmida",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. ফাহমিদা জেসমিন একজন দক্ষ গাইনি ও প্রসূতি বিশেষজ্ঞ। তিনি বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় (BSMMU) থেকে উচ্চতর প্রশিক্ষণপ্রাপ্ত। গর্ভকালীন যত্ন, সিজারিয়ান ডেলিভারি, জরায়ুর অপারেশন ও নারীরোগ চিকিৎসায় বিশেষজ্ঞ।",
+      "bio_en": "Dr. Fahmida Jesmin is a skilled Gynaecology and Obstetrics Specialist with advanced training from Bangabandhu Sheikh Mujib Medical University (BSMMU). She specializes in antenatal care, cesarean delivery, uterine surgery, and women's health."
+    },
+    {
+      "id": "dr-md-gias-uddin-ahmed",
+      "slug": "dr-md-gias-uddin-ahmed",
+      "name_bn": "ডা. মো. গিয়াস উদ্দিন আহমেদ",
+      "name_en": "Dr. Md. Gias Uddin Ahmed",
+      "title": "Doctor",
+      "designation_bn": "নবজাতক ও শিশু রোগ বিশেষজ্ঞ",
+      "designation_en": "Newborn & Child Health Specialist",
+      "affiliation_bn": "ফরিদপুর মেডিকেল কলেজ হাসপাতাল",
+      "affiliation_en": "Faridpur Medical College Hospital",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "FCPS (Pediatrics)",
+        "MD (Pediatrics)"
+      ],
+      "specialties_bn": [
+        "শিশু রোগ",
+        "নবজাতক",
+        "টিকা"
+      ],
+      "specialties_en": [
+        "Pediatrics",
+        "Neonatology",
+        "Vaccination"
+      ],
+      "expertise": [
+        "Newborn Care",
+        "Child Nutrition",
+        "Vaccination",
+        "Childhood Diseases",
+        "Growth Monitoring",
+        "Allergy in Children"
+      ],
+      "department": "pediatrics",
+      "department_bn": "শিশু ও নবজাতক",
+      "experience_years": 10,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Monday & Thursday",
+        "day_bn": "প্রতি সোমবার ও বৃহস্পতিবার",
+        "time_en": "5:00 PM - 9:00 PM",
+        "time_bn": "বিকাল ৫:০০ - রাত ৯:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৪০০ টাকা",
+      "image": "images/doctors/dr-md-gias-uddin-pediatrics.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Gias+Uddin",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. মো. গিয়াস উদ্দিন আহমেদ একজন নবজাতক ও শিশু রোগ বিশেষজ্ঞ। ফরিদপুর মেডিকেল কলেজ হাসপাতালে কর্মরত। নবজাতকের যত্ন, শিশুদের পুষ্টি, টিকা ও বিভিন্ন শৈশব রোগের চিকিৎসায় দক্ষ।",
+      "bio_en": "Dr. Md. Gias Uddin Ahmed is a Newborn and Child Health Specialist affiliated with Faridpur Medical College Hospital. He specializes in newborn care, child nutrition, vaccination, and various childhood diseases."
+    },
+    {
+      "id": "dr-md-shafiqur-rahman",
+      "slug": "dr-md-shafiqur-rahman",
+      "name_bn": "অধ্যাপক ডা. মো. শফিকুর রহমান",
+      "name_en": "Professor Dr. Md. Shafiqur Rahman",
+      "title": "Associate Professor",
+      "designation_bn": "নাক, কান ও গলা রোগ বিশেষজ্ঞ ও সার্জন",
+      "designation_en": "ENT Specialist & Head-Neck Surgeon",
+      "affiliation_bn": "ফরিদপুর মেডিকেল কলেজ হাসপাতাল",
+      "affiliation_en": "Faridpur Medical College Hospital",
+      "qualifications": [
+        "MBBS (CU)",
+        "BCS (Health)",
+        "DLO (DU)",
+        "FCPS (ENT)"
+      ],
+      "specialties_bn": [
+        "নাক কান গলা",
+        "সার্জারি",
+        "হেড-নেক"
+      ],
+      "specialties_en": [
+        "ENT",
+        "Surgery",
+        "Head-Neck"
+      ],
+      "expertise": [
+        "Ear Diseases",
+        "Sinusitis",
+        "Tonsillitis",
+        "Hearing Loss",
+        "Head & Neck Surgery",
+        "Voice Disorders"
+      ],
+      "department": "ent",
+      "department_bn": "নাক, কান ও গলা",
+      "experience_years": 18,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Sunday & Wednesday",
+        "day_bn": "প্রতি রবিবার ও বুধবার",
+        "time_en": "4:00 PM - 8:00 PM",
+        "time_bn": "বিকাল ৪:০০ - রাত ৮:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা",
+      "image": "images/doctors/dr-md-shafiqur-rahman-ent.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Shafiqur+Rahman",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "অধ্যাপক ডা. মো. শফিকুর রহমান একজন সিনিয়র নাক, কান ও গলা রোগ বিশেষজ্ঞ। ফরিদপুর মেডিকেল কলেজ হাসপাতালে কর্মরত। কানের রোগ, সাইনাসাইটিস, টনসিলাইটিস, শ্রবণ সমস্যা ও হেড-নেক সার্জারিতে দক্ষ।",
+      "bio_en": "Professor Dr. Md. Shafiqur Rahman is a senior ENT Specialist and Head-Neck Surgeon affiliated with Faridpur Medical College Hospital. He specializes in ear diseases, sinusitis, tonsillitis, hearing loss, and head & neck surgery."
+    },
+    {
+      "id": "dr-md-enamul-haque",
+      "slug": "dr-md-enamul-haque",
+      "name_bn": "ডা. মো. এনামুল হক",
+      "name_en": "Dr. Md. Enamul Haque",
+      "title": "Doctor",
+      "designation_bn": "চক্ষু বিশেষজ্ঞ ও ফ্যাকো সার্জন",
+      "designation_en": "Eye Specialist & Phaco Surgeon",
+      "affiliation_bn": "জাতীয় চক্ষু বিজ্ঞান ইনস্টিটিউট ও হাসপাতাল",
+      "affiliation_en": "National Institute of Ophthalmology & Hospital",
+      "qualifications": [
+        "MBBS",
+        "DO (DU)",
+        "FCPS (Eye)",
+        "FRSH (London)"
+      ],
+      "specialties_bn": [
+        "চক্ষু",
+        "ফ্যাকো সার্জারি",
+        "লেন্স"
+      ],
+      "specialties_en": [
+        "Ophthalmology",
+        "Phaco Surgery",
+        "Lens"
+      ],
+      "expertise": [
+        "Cataract Surgery",
+        "Glaucoma",
+        "Refractive Errors",
+        "Retina",
+        "Pediatric Eye Care",
+        "Diabetic Retinopathy"
+      ],
+      "department": "eye",
+      "department_bn": "চক্ষু",
+      "experience_years": 16,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Saturday & Tuesday",
+        "day_bn": "প্রতি শনিবার ও মঙ্গলবার",
+        "time_en": "3:00 PM - 7:00 PM",
+        "time_bn": "বিকাল ৩:০০ - সন্ধ্যা ৭:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা",
+      "image": "images/doctors/dr-md-shamsul-alam-ortho.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Enamul+Haque",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. মো. এনামুল হক একজন চক্ষু বিশেষজ্ঞ ও ফ্যাকো সার্জন। জাতীয় চক্ষু বিজ্ঞান ইনস্টিটিউট ও হাসপাতাল থেকে প্রশিক্ষিত। ছানি অপারেশন, গ্লুকোমা, রেটিনা ও শিশু চক্ষু চিকিৎসায় বিশেষজ্ঞ।",
+      "bio_en": "Dr. Md. Enamul Haque is an Eye Specialist and Phaco Surgeon trained at the National Institute of Ophthalmology & Hospital. He specializes in cataract surgery, glaucoma, retina, and pediatric eye care."
+    },
+    {
+      "id": "dr-md-rashidul-hassan",
+      "slug": "dr-md-rashidul-hassan",
+      "name_bn": "ডা. মো. রশিদুল হাসান",
+      "name_en": "Dr. Md. Rashidul Hassan",
+      "title": "Doctor",
+      "designation_bn": "ইউরোলজি বিশেষজ্ঞ ও সার্জন (কিডনি, মূত্রনালী, প্রোস্টেট)",
+      "designation_en": "Urologist & Surgeon (Kidney, Ureter, Prostate)",
+      "affiliation_bn": "ফরিদপুর মেডিকেল কলেজ হাসপাতাল",
+      "affiliation_en": "Faridpur Medical College Hospital",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "MS (Urology, BSMMU)"
+      ],
+      "specialties_bn": [
+        "ইউরোলজি",
+        "কিডনি",
+        "সার্জারি"
+      ],
+      "specialties_en": [
+        "Urology",
+        "Kidney",
+        "Surgery"
+      ],
+      "expertise": [
+        "Kidney Stone",
+        "Prostate",
+        "Urinary Tract",
+        "Male Health",
+        "Laparoscopic Surgery",
+        "Endourology"
+      ],
+      "department": "urology",
+      "department_bn": "ইউরোলজি",
+      "experience_years": 8,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Friday",
+        "day_bn": "প্রতি শুক্রবার",
+        "time_en": "3:00 PM - 7:00 PM",
+        "time_bn": "বিকাল ৩:০০ - সন্ধ্যা ৭:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৫০০ টাকা",
+      "image": "images/doctors/dr-md-rashidul-hassan-urology.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Rashidul+Hassan",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. মো. রশিদুল হাসান একজন ইউরোলজি বিশেষজ্ঞ ও সার্জন। ফরিদপুর মেডিকেল কলেজ হাসপাতালে কর্মরত। কিডনি স্টোন, প্রোস্টেট, মূত্রনালীর রোগ ও ল্যাপারোস্কপিক সার্জারিতে দক্ষ।",
+      "bio_en": "Dr. Md. Rashidul Hassan is a Urologist and Surgeon affiliated with Faridpur Medical College Hospital. He specializes in kidney stones, prostate, urinary tract diseases, and laparoscopic surgery."
+    },
+    {
+      "id": "dr-ananta-kumar-biswas",
+      "slug": "dr-ananta-kumar-biswas",
+      "name_bn": "ডা. অনন্ত কুমার বিশ্বাস",
+      "name_en": "Dr. Ananta Kumar Biswas",
+      "title": "Doctor",
+      "designation_bn": "অ্যানেস্থেসিওলজিস্ট ও ক্রিটিক্যাল কেয়ার বিশেষজ্ঞ",
+      "designation_en": "Anesthesiologist & Critical Care Specialist",
+      "affiliation_bn": "গ্রিন হাসপাতাল লিমিটেড, ফরিদপুর",
+      "affiliation_en": "Green Hospital Ltd, Faridpur",
+      "qualifications": [
+        "MBBS",
+        "DA (Anesthesiology)"
+      ],
+      "specialties_bn": [
+        "অ্যানেস্থেসিওলজি",
+        "ক্রিটিক্যাল কেয়ার",
+        "আইসিইউ"
+      ],
+      "specialties_en": [
+        "Anesthesiology",
+        "Critical Care",
+        "ICU"
+      ],
+      "expertise": [
+        "General Anesthesia",
+        "Regional Anesthesia",
+        "Pain Management",
+        "ICU Care",
+        "Emergency Care",
+        "Patient Monitoring"
+      ],
+      "department": "anesthesiology",
+      "department_bn": "অ্যানেস্থেসিওলজি",
+      "experience_years": 12,
+      "languages": [
+        "Bangla",
+        "English",
+        "Hindi"
+      ],
+      "schedule": {
+        "day_en": "Daily (On Call)",
+        "day_bn": "প্রতিদিন (জরুরি)",
+        "time_en": "24/7 Available",
+        "time_bn": "২৪ ঘণ্টা প্রস্তুত"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "অপারেশন অনুযায়ী",
+      "image": "images/doctors/dr-md-tahir-ahmed-chest.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Ananta+Kumar",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. অনন্ত কুমার বিশ্বাস একজন অভিজ্ঞ অ্যানেস্থেসিওলজিস্ট। গ্রিন হাসপাতাল লিমিটেডে নিয়মিত অপারেশন থিয়েটার ও আইসিইউ দায়িত্ব পালন করছেন। জেনারেল ও রিজিওনাল অ্যানেস্থেসিয়া, পেইন ম্যানেজমেন্টে দক্ষ।",
+      "bio_en": "Dr. Ananta Kumar Biswas is an experienced Anesthesiologist serving at Green Hospital Ltd in operation theater and ICU. He specializes in general and regional anesthesia, pain management, and critical care."
+    },
+    {
+      "id": "dr-lipika-sanjowal",
+      "slug": "dr-lipika-sanjowal",
+      "name_bn": "ডা. লিপিকা সঞ্জোয়াল",
+      "name_en": "Dr. Lipika Sanjowal",
+      "title": "Doctor",
+      "designation_bn": "অ্যানেস্থেসিওলজিস্ট",
+      "designation_en": "Anesthesiologist",
+      "affiliation_bn": "গ্রিন হাসপাতাল লিমিটেড, ফরিদপুর",
+      "affiliation_en": "Green Hospital Ltd, Faridpur",
+      "qualifications": [
+        "MBBS",
+        "DA",
+        "MCPS (Anesthesia)"
+      ],
+      "specialties_bn": [
+        "অ্যানেস্থেসিওলজি",
+        "অবসেট্রিক অ্যানেস্থেসিয়া"
+      ],
+      "specialties_en": [
+        "Anesthesiology",
+        "Obstetric Anesthesia"
+      ],
+      "expertise": [
+        "Obstetric Anesthesia",
+        "Pediatric Anesthesia",
+        "Regional Blocks",
+        "Pain Management",
+        "Critical Care"
+      ],
+      "department": "anesthesiology",
+      "department_bn": "অ্যানেস্থেসিওলজি",
+      "experience_years": 7,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Daily",
+        "day_bn": "প্রতিদিন",
+        "time_en": "8:00 AM - 4:00 PM",
+        "time_bn": "সকাল ৮:০০ - বিকাল ৪:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "অপারেশন অনুযায়ী",
+      "image": "images/doctors/dr-sharmin-akter-gynae.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Lipika",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. লিপিকা সঞ্জোয়াল একজন অ্যানেস্থেসিওলজিস্ট। অবসেট্রিক অ্যানেস্থেসিয়া ও পেইন ম্যানেজমেন্টে বিশেষ দক্ষতা রাখেন। গ্রিন হাসপাতালে নিয়মিত অপারেশনে অ্যানেস্থেসিয়া প্রদান করেন।",
+      "bio_en": "Dr. Lipika Sanjowal is an Anesthesiologist with special expertise in obstetric anesthesia and pain management. She provides anesthesia services in operations at Green Hospital regularly."
+    },
+    {
+      "id": "dr-md-towrit-reza",
+      "slug": "dr-md-towrit-reza",
+      "name_bn": "ডা. মো. তৌরিত রেজা (রিসলু)",
+      "name_en": "Dr. Md. Towrit Reza (Rislu)",
+      "title": "Doctor",
+      "designation_bn": "রেডিওলজি ও ইমেজিং বিশেষজ্ঞ",
+      "designation_en": "Radiology & Imaging Specialist",
+      "affiliation_bn": "গ্রিন হাসপাতাল লিমিটেড, ফরিদপুর",
+      "affiliation_en": "Green Hospital Ltd, Faridpur",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "MD (Radiology & Imaging)"
+      ],
+      "specialties_bn": [
+        "রেডিওলজি",
+        "ইমেজিং",
+        "আল্ট্রাসনোগ্রাফি"
+      ],
+      "specialties_en": [
+        "Radiology",
+        "Imaging",
+        "Ultrasonography"
+      ],
+      "expertise": [
+        "Digital X-Ray",
+        "4D Ultrasound",
+        "CT Scan",
+        "MRI",
+        "Color Doppler",
+        "Mammography"
+      ],
+      "department": "radiology",
+      "department_bn": "রেডিওলজি ও ইমেজিং",
+      "experience_years": 9,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Daily",
+        "day_bn": "প্রতিদিন",
+        "time_en": "9:00 AM - 5:00 PM",
+        "time_bn": "সকাল ৯:০০ - বিকাল ৫:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "পরীক্ষা অনুযায়ী",
+      "image": "images/doctors/dr-md-abdul-hakim-medicine.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Towrit+Reza",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. মো. তৌরিত রেজা (রিসলু) একজন রেডিওলজি ও ইমেজিং বিশেষজ্ঞ। গ্রিন হাসপাতালের ডায়াগনস্টিক বিভাগে দায়িত্ব পালন করছেন। ডিজিটাল এক্স-রে, ৪ডি আল্ট্রাসাউন্ড, সিটি স্ক্যান ও এমআরআই রিপোর্টে দক্ষ।",
+      "bio_en": "Dr. Md. Towrit Reza (Rislu) is a Radiology and Imaging Specialist serving in the diagnostic department of Green Hospital. He specializes in digital X-ray, 4D ultrasound, CT scan, and MRI reporting."
+    },
+    {
+      "id": "dr-md-shamim-reza",
+      "slug": "dr-md-shamim-reza",
+      "name_bn": "ডা. মো. শামীম রেজা",
+      "name_en": "Dr. Md. Shamim Reza",
+      "title": "Doctor",
+      "designation_bn": "ভাস্কুলার, এন্ডোভাসকুলার ও থোরাসিক সার্জন",
+      "designation_en": "Vascular, Endovascular & Thoracic Surgeon",
+      "affiliation_bn": "ন্যাশনাল ইনস্টিটিউট অব কার্ডিওভাসকুলার ডিজিজেস (NICVD)",
+      "affiliation_en": "National Institute of Cardiovascular Diseases (NICVD)",
+      "qualifications": [
+        "MBBS",
+        "BCS (Health)",
+        "MS (Cardio Vascular & Thoracic Surgery)"
+      ],
+      "specialties_bn": [
+        "ভাস্কুলার সার্জারি",
+        "এন্ডোভাসকুলার",
+        "থোরাসিক"
+      ],
+      "specialties_en": [
+        "Vascular Surgery",
+        "Endovascular",
+        "Thoracic"
+      ],
+      "expertise": [
+        "Vascular Surgery",
+        "Endovascular Fistula",
+        "Footcare",
+        "Varicose Vein",
+        "Diabetic Foot",
+        "Thoracic Surgery"
+      ],
+      "department": "surgery",
+      "department_bn": "জেনারেল ও ভাস্কুলার সার্জারি",
+      "experience_years": 10,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Tuesday & Friday",
+        "day_bn": "প্রতি মঙ্গলবার ও শুক্রবার",
+        "time_en": "5:00 PM - 9:00 PM",
+        "time_bn": "বিকাল ৫:০০ - রাত ৯:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৬০০ টাকা",
+      "image": "images/doctors/dr-md-shamsul-alam-ortho.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Shamim+Reza",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. মো. শামীম রেজা একজন ভাস্কুলার, এন্ডোভাসকুলার ও থোরাসিক সার্জন। জাতীয় হৃদরোগ ইনস্টিটিউটে কর্মরত। ভাস্কুলার সার্জারি, এন্ডোভাসকুলার ফিস্টুলা ও ডায়াবেটিক ফুট কেয়ারে বিশেষজ্ঞ।",
+      "bio_en": "Dr. Md. Shamim Reza is a Vascular, Endovascular and Thoracic Surgeon affiliated with the National Institute of Cardiovascular Diseases. He specializes in vascular surgery, endovascular fistula, and diabetic foot care."
+    },
+    {
+      "id": "dr-gonopati-biswas",
+      "slug": "dr-gonopati-biswas",
+      "name_bn": "ডা. গোণপতি বিশ্বাস (শুভ)",
+      "name_en": "Dr. Gonopati Biswas (Shuvo)",
+      "title": "Doctor",
+      "designation_bn": "দন্ত ও মুখ সার্জন",
+      "designation_en": "Dental & Oral Surgeon",
+      "affiliation_bn": "ফরিদপুর মেডিকেল কলেজ হাসপাতাল",
+      "affiliation_en": "Faridpur Medical College Hospital",
+      "qualifications": [
+        "BDS",
+        "BCS (Health)",
+        "DDS",
+        "FRSH (London)"
+      ],
+      "specialties_bn": [
+        "দন্ত চিকিৎসা",
+        "মুখ সার্জারি",
+        "অর্থোডন্টিক্স"
+      ],
+      "specialties_en": [
+        "Dental Care",
+        "Oral Surgery",
+        "Orthodontics"
+      ],
+      "expertise": [
+        "Root Canal",
+        "Dental Implants",
+        "Teeth Whitening",
+        "Scaling",
+        "Extraction",
+        "Braces"
+      ],
+      "department": "dental",
+      "department_bn": "দন্ত বিভাগ",
+      "experience_years": 8,
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+      "schedule": {
+        "day_en": "Every Sunday to Thursday",
+        "day_bn": "প্রতি রবি-বৃহস্পতি",
+        "time_en": "5:00 PM - 8:00 PM",
+        "time_bn": "বিকাল ৫:০০ - রাত ৮:০০"
+      },
+      "serial_number": "01988-118833",
+      "consultation_fee": "৩০০ টাকা",
+      "image": "images/doctors/dr-md-gias-uddin-pediatrics.jpg",
+      "image_placeholder": "https://placehold.co/600x600/0a8d4a/ffffff?text=Dr.+Gonopati",
+      "verified": false,
+      "source": "Demo profile (representative)",
+      "bio_bn": "ডা. গোণপতি বিশ্বাস (শুভ) একজন দন্ত ও মুখ সার্জন। ফরিদপুর মেডিকেল কলেজ হাসপাতালের সহকারী রেজিস্ট্রার। রুট ক্যানেল, ডেন্টাল ইমপ্ল্যান্ট, স্কেলিং ও ব্রেসেস চিকিৎসায় দক্ষ।",
+      "bio_en": "Dr. Gonopati Biswas (Shuvo) is a Dental and Oral Surgeon, Assistant Registrar at Faridpur Medical College Hospital. He specializes in root canal, dental implants, scaling, and braces."
+    }
+  ],
+  "stats": {
+    "total_doctors": 16,
+    "verified_doctors": 4,
+    "demo_doctors": 12,
+    "departments_covered": 12,
+    "image_strategy": "5 verified with local AI-generated JPGs, 12 demo profiles using randomuser.me API (real-looking professional photos). Easily replaceable with real photos.",
+    "replacement_guide": "See ADD_NEW_DOCTOR_GUIDE.md for instructions to replace demo data with real doctor info."
+  }
+}

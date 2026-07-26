@@ -1,0 +1,193 @@
+{
+  "services": [
+    {
+      "id": "medicine-neurology",
+      "name_bn": "মেডিসিন ও নিউরোলজি",
+      "name_en": "Medicine & Neurology",
+      "icon": "fa-brain",
+      "description_bn": "সাধারণ মেডিসিন, নিউরোলজি, ডায়াবেটিস, উচ্চ রক্তচাপ, থাইরয়েড ও হরমোনজনিত জটিল রোগের সুচিকিৎসা।",
+      "description_en": "Comprehensive treatment for general medicine, neurology, diabetes, hypertension, thyroid, and hormonal disorders.",
+      "slug": "medicine-neurology",
+      "featured": true,
+      "head_doctor": "ডা. মো. শহিদুর রহমান (মিলন)"
+    },
+    {
+      "id": "gastroenterology",
+      "name_bn": "গ্যাস্ট্রোএন্টারোলজি",
+      "name_en": "Gastroenterology",
+      "icon": "fa-stethoscope",
+      "description_bn": "পাকস্থলী, লিভার, আলসার, গ্যাস্ট্রিক ও হেমাটোলজি রোগের আধুনিক চিকিৎসা।",
+      "description_en": "Modern treatment for stomach, liver, ulcer, gastric, and hematological diseases.",
+      "slug": "gastroenterology",
+      "featured": true,
+      "head_doctor": "ডা. মো. শহিদুর রহমান (মিলন)"
+    },
+    {
+      "id": "orthopedics",
+      "name_bn": "অর্থোপেডিকস ও ট্রমা",
+      "name_en": "Orthopedics & Trauma",
+      "icon": "fa-bone",
+      "description_bn": "হাড় ভাঙা, জয়েন্ট পেইন, ট্রমা, প্যারালাইসিস ও অর্থো-সার্জারি বিশেষজ্ঞ পরামর্শ।",
+      "description_en": "Specialist consultation for fractures, joint pain, trauma, paralysis, and orthopedic surgery.",
+      "slug": "orthopedics",
+      "featured": true,
+      "head_doctor": "অধ্যাপক ডা. মো. গোলাম কবীর"
+    },
+    {
+      "id": "neurosurgery",
+      "name_bn": "নিউরোসার্জারি",
+      "name_en": "Neurosurgery",
+      "icon": "fa-user-doctor",
+      "description_bn": "মস্তিষ্ক, মেরুদণ্ড (Spine), স্ট্রোক ও নার্ভের জটিল রোগের বিশেষজ্ঞ পরামর্শ ও সার্জারি।",
+      "description_en": "Expert consultation and surgery for complex conditions of the brain, spine, stroke, and nerves.",
+      "slug": "neurosurgery",
+      "featured": true,
+      "head_doctor": "ডা. এন. এইচ. তুষার"
+    },
+    {
+      "id": "gynecology-obstetrics",
+      "name_bn": "গাইনি ও প্রসূতি",
+      "name_en": "Gynaecology & Obstetrics",
+      "icon": "fa-person-pregnant",
+      "description_bn": "গর্ভকালীন যত্ন, নরমাল ও সিজারিয়ান ডেলিভারি, জরায়ুর অপারেশন ও ল্যাপারোস্কপিক সার্জারি।",
+      "description_en": "Antenatal care, normal and cesarean delivery, uterine surgery, and laparoscopic surgery.",
+      "slug": "gynecology",
+      "featured": true
+    },
+    {
+      "id": "dermatology",
+      "name_bn": "চর্ম, যৌন ও এলার্জি",
+      "name_en": "Skin, VD & Allergy",
+      "icon": "fa-allergies",
+      "description_bn": "চর্মরোগ, যৌন সমস্যা, এলার্জি, ব্রণ ও এলার্জি জনিত রোগের দীর্ঘমেয়াদী সমাধান।",
+      "description_en": "Long-term solutions for skin diseases, sexual problems, allergies, and acne.",
+      "slug": "dermatology",
+      "featured": true,
+      "head_doctor": "ডা. শাকিলা জামান"
+    },
+    {
+      "id": "cardiology",
+      "name_bn": "কার্ডিওলজি",
+      "name_en": "Cardiology",
+      "icon": "fa-heart-pulse",
+      "description_bn": "হৃদরোগ, বুক ব্যথা, উচ্চ রক্তচাপ পরীক্ষা ও হৃদরোগ বিশেষজ্ঞের নিয়মিত চেম্বার।",
+      "description_en": "Heart disease, chest pain, blood pressure check, and regular chambers by heart specialists.",
+      "slug": "cardiology",
+      "featured": true
+    },
+    {
+      "id": "dental",
+      "name_bn": "ডেন্টাল (দন্ত)",
+      "name_en": "Dental Care",
+      "icon": "fa-tooth",
+      "description_bn": "দাঁতের এক্স-রে, ফিলিং, স্কেলিং, রুট ক্যানেল ও মুখমণ্ডলের অপারেশনের আধুনিক ব্যবস্থা।",
+      "description_en": "Dental X-ray, filling, scaling, root canal, and oral-facial surgery with modern facilities.",
+      "slug": "dental"
+    },
+    {
+      "id": "radiology",
+      "name_bn": "রেডিওলজি ও ইমেজিং",
+      "name_en": "Radiology & Imaging",
+      "icon": "fa-x-ray",
+      "description_bn": "ডিজিটাল এক্স-রে, ৪ডি আল্ট্রাসনোগ্রাফি, ইসিজি (ECG) ও আধুনিক ডায়াগনস্টিক রিপোর্ট।",
+      "description_en": "Digital X-ray, 4D ultrasonography, ECG, and modern diagnostic reports.",
+      "slug": "radiology"
+    },
+    {
+      "id": "anesthesiology",
+      "name_bn": "অ্যানেস্থেসিওলজি",
+      "name_en": "Anesthesiology",
+      "icon": "fa-syringe",
+      "description_bn": "অপারেশন থিয়েটারে ব্যথামুক্ত চিকিৎসা ও অ্যানেস্থেসিয়া বিশেষজ্ঞ সার্ভিস।",
+      "description_en": "Pain-free surgery and anesthesia specialist service in operation theaters.",
+      "slug": "anesthesiology"
+    },
+    {
+      "id": "homeopathy",
+      "name_bn": "হোমিওপ্যাথি",
+      "name_en": "Homeopathy",
+      "icon": "fa-leaf",
+      "description_bn": "দীর্ঘস্থায়ী রোগ, এলার্জি ও চর্মরোগের হোমিওপ্যাথিক চিকিৎসা।",
+      "description_en": "Homeopathic treatment for chronic diseases, allergies, and skin conditions.",
+      "slug": "homeopathy",
+      "head_doctor": "ডা. মো. দুলাল হোসেন"
+    },
+    {
+      "id": "emergency",
+      "name_bn": "জরুরি বিভাগ",
+      "name_en": "Emergency Care",
+      "icon": "fa-truck-medical",
+      "description_bn": "২৪ ঘণ্টা জরুরি সেবা, অ্যাম্বুলেন্স ও দুর্ঘটনা পরবর্তী চিকিৎসা।",
+      "description_en": "24/7 emergency service, ambulance, and post-accident treatment.",
+      "slug": "emergency",
+      "featured": true
+    },
+    {
+      "id": "diagnostic-lab",
+      "name_bn": "ডায়াগনস্টিক ল্যাব",
+      "name_en": "Diagnostic Laboratory",
+      "icon": "fa-vials",
+      "description_bn": "১০০% আধুনিক ডিজিটাল ডায়াগনস্টিক ল্যাব - রক্ত, প্রস্রাব, বায়োকেমিস্ট্রি ও ইমিউনোলজি টেস্ট।",
+      "description_en": "100% modern digital diagnostic lab - blood, urine, biochemistry, and immunology tests.",
+      "slug": "diagnostic-lab",
+      "featured": true
+    }
+  ],
+  "facilities": [
+    {
+      "id": "operation-theater",
+      "name_bn": "অপারেশন থিয়েটার",
+      "name_en": "Operation Theater",
+      "count": 3,
+      "description_bn": "এসি ও জীবাণুমুক্ত ৩টি আধুনিক অপারেশন থিয়েটার",
+      "description_en": "3 modern AC & sterile operation theaters",
+      "icon": "fa-scalpel",
+      "image": "images/operation-theater.jpg"
+    },
+    {
+      "id": "icu",
+      "name_bn": "আইসিইউ / এনআইসিইউ",
+      "name_en": "ICU / NICU",
+      "description_bn": "২৪ ঘণ্টা নিবিড় পরিচর্যা ইউনিট",
+      "description_en": "24/7 Intensive Care Unit",
+      "icon": "fa-bed-pulse",
+      "image": "images/icu.jpg"
+    },
+    {
+      "id": "cabins",
+      "name_bn": "এসি / নন-এসি কেবিন",
+      "name_en": "AC / Non-AC Cabin",
+      "description_bn": "আরামদায়ক ভর্তি রোগীর কেবিন",
+      "description_en": "Comfortable inpatient cabins",
+      "icon": "fa-bed",
+      "image": "images/cabin.jpg"
+    },
+    {
+      "id": "pharmacy",
+      "name_bn": "ফার্মেসি",
+      "name_en": "Pharmacy",
+      "description_bn": "২৪ ঘণ্টা ফার্মেসি সেবা",
+      "description_en": "24/7 pharmacy service",
+      "icon": "fa-pills",
+      "image": "images/pharmacy-counter.jpg"
+    },
+    {
+      "id": "ambulance",
+      "name_bn": "অ্যাম্বুলেন্স",
+      "name_en": "Ambulance",
+      "description_bn": "২৪ ঘণ্টা অ্যাম্বুলেন্স সার্ভিস",
+      "description_en": "24/7 ambulance service",
+      "icon": "fa-truck-medical",
+      "image": "images/main-corridor.jpg"
+    },
+    {
+      "id": "diagnostic",
+      "name_bn": "ডায়াগনস্টিক সেন্টার",
+      "name_en": "Diagnostic Center",
+      "description_bn": "আধুনিক প্যাথলজি ও ইমেজিং",
+      "description_en": "Modern pathology & imaging",
+      "icon": "fa-microscope",
+      "image": "images/diagnostic-machine.jpg"
+    }
+  ]
+}

@@ -1506,7 +1506,11 @@ h1, h2, h3, h4, h5, h6 {
     outline-offset: 2px;
 }
 
-/* Mobile Responsive */
+/* ============================================
+   MOBILE RESPONSIVE - COMPREHENSIVE
+   ============================================ */
+
+/* ---- Tablet Landscape (992px) ---- */
 @media (max-width: 992px) {
     .footer-grid {
         grid-template-columns: 1fr 1fr;
@@ -1519,12 +1523,34 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
+    .doctors-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .services-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .hero-slider-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .hero-slider-btn.prev {
+        left: 10px;
+    }
+    .hero-slider-btn.next {
+        right: 10px;
+    }
 }
 
+/* ---- Tablet Portrait (768px) ---- */
 @media (max-width: 768px) {
     .top-bar-content {
         justify-content: center;
         text-align: center;
+    }
+    
+    .top-social {
+        display: none;
     }
     
     .mobile-menu-btn {
@@ -1546,6 +1572,7 @@ h1, h2, h3, h4, h5, h6 {
         z-index: var(--z-fixed);
         align-items: stretch;
         gap: 0;
+        overflow-y: auto;
     }
     
     .nav-links.active {
@@ -1565,58 +1592,486 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
     
-    .hero {
+    /* Hero Slider Mobile */
+    .hero-slider-section {
         min-height: 60vh;
     }
-    
+    .hero-slider {
+        min-height: 60vh;
+    }
+    .hero-slide {
+        min-height: 60vh;
+        padding: 3rem 1rem 5rem;
+    }
+    .hero-title {
+        font-size: clamp(1.5rem, 5vw, 2.2rem);
+    }
+    .hero-text {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    .hero-subtitle {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+    }
     .hero-buttons {
         flex-direction: column;
+        align-items: center;
     }
-    
     .hero-buttons .btn {
         width: 100%;
+        max-width: 320px;
+        justify-content: center;
     }
-    
+    .hero-slider-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
+    }
+    .hero-slider-btn.prev {
+        left: 8px;
+    }
+    .hero-slider-btn.next {
+        right: 8px;
+    }
+    .hero-slider-dots {
+        bottom: 50px;
+        gap: 8px;
+    }
+    .hero-slider-dots .dot {
+        width: 10px;
+        height: 10px;
+    }
+    .hero-slider-dots .dot.active {
+        width: 24px;
+    }
+
+    /* Quick Stats */
+    .quick-stats {
+        margin-top: -30px;
+        padding: 2rem 0;
+        border-radius: var(--radius-lg);
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
         padding: 0 1rem;
+        gap: 1rem;
+    }
+    .stat-card {
+        padding: 1rem;
+    }
+    .stat-card i {
+        font-size: 2rem;
+    }
+    .stat-card h3 {
+        font-size: 2rem;
     }
     
+    /* Section Padding */
     .section-padding {
         padding: 3rem 0;
     }
+    .section-header {
+        margin-bottom: 2rem;
+    }
     
+    /* Services Grid */
+    .services-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 0.75rem;
+    }
+    .service-card {
+        padding: 1rem 0.75rem;
+    }
+    
+    /* Doctors Grid */
+    .doctors-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .doctor-card {
+        padding: 1.5rem 1rem;
+    }
+    
+    /* Why Grid */
+    .why-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .why-card {
+        padding: 1.25rem;
+    }
+    
+    /* Contact Cards */
+    .contact-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .contact-card {
+        padding: 1.25rem;
+    }
+    .contact-card i {
+        font-size: 2rem;
+    }
+    
+    /* Hours Grid */
+    .hours-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+    /* Footer */
     .footer-grid {
         grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .footer-widget h3 {
+        font-size: 1rem;
+    }
+    .map-container iframe {
+        height: 180px !important;
+    }
+    
+    /* Emergency Banner */
+    .emergency-banner {
+        padding: 2.5rem 0;
+    }
+    .emergency-banner h2 {
+        font-size: 1.3rem;
+    }
+    .emergency-banner p {
+        font-size: 0.95rem;
+    }
+    
+    /* FAQ */
+    .faq-question {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+    .faq-item.active .faq-answer {
+        padding: 0 1rem 1rem;
+    }
+    
+    /* Page Header */
+    .page-header {
+        padding: 3rem 0 1.5rem;
+    }
+    
+    /* Gallery inline styles override */
+    [style*="grid-template-columns: repeat(3"] {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    [style*="grid-template-columns: repeat(4"] {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    /* About content */
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Testimonials */
+    .testimonial-card {
+        padding: 1.5rem;
+    }
+    
+    /* WhatsApp & scroll buttons - mobile size */
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        bottom: 80px;
+        right: 15px;
+    }
+    .scroll-to-top {
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
+        bottom: 15px;
+        right: 15px;
     }
 }
 
-@media (max-width: 480px) {
+/* ---- Mobile Large (576px) ---- */
+@media (max-width: 576px) {
     .container {
         padding: 0 1rem;
     }
     
-    .logo-text {
-        font-size: 1.1rem;
+    /* Hero */
+    .hero-slider-section {
+        min-height: 55vh;
+    }
+    .hero-slider, .hero-slide {
+        min-height: 55vh;
+    }
+    .hero-slide {
+        padding: 2.5rem 0.75rem 4.5rem;
+    }
+    .hero-content {
+        max-width: 100%;
+    }
+    .hero-title {
+        font-size: 1.4rem;
+    }
+    .hero-text {
+        font-size: 0.85rem;
+        line-height: 1.5;
     }
     
-    .stats-grid {
+    /* Stats */
+    .quick-stats {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 1.5rem 0;
+    }
+    
+    /* Services */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    .service-card {
+        padding: 0.75rem;
+    }
+    .service-card h3, .service-title {
+        font-size: 0.9rem;
+    }
+    .service-card p {
+        font-size: 0.78rem;
+    }
+    .service-card i {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Why / Cards */
+    .why-grid {
         grid-template-columns: 1fr;
     }
     
+    /* Contact */
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+    .hours-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Gallery override */
+    [style*="grid-template-columns: repeat(2"] {
+        grid-template-columns: 1fr !important;
+    }
+    [style*="grid-template-columns: repeat(3"] {
+        grid-template-columns: 1fr !important;
+    }
+    [style*="grid-template-columns: repeat(4"] {
+        grid-template-columns: 1fr !important;
+    }
+    [style*="grid-template-columns: repeat(auto-fit, minmax(260px"] {
+        grid-template-columns: 1fr !important;
+    }
+    [style*="grid-template-columns: repeat(auto-fit, minmax(280px"] {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Doctor filter */
+    .doctor-filter {
+        gap: 0.35rem;
+        margin: 1rem 0 2rem;
+    }
+    .filter-btn {
+        padding: 0.4rem 0.85rem;
+        font-size: 0.8rem;
+    }
+    
+    /* Footer logo */
+    .footer-logo {
+        max-width: 180px;
+    }
+}
+
+/* ---- Mobile Small (480px) ---- */
+@media (max-width: 480px) {
+    .logo-text {
+        font-size: 0.95rem;
+        max-width: 100px;
+    }
+    .logo img {
+        height: 45px;
+    }
+    
+    /* Stats grid */
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
     .stat-card h3 {
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+    .stat-card p {
+        font-size: 0.8rem;
+    }
+    .stat-card i {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Hero slider text */
+    .hero-title {
+        font-size: 1.25rem;
+    }
+    .hero-text {
+        font-size: 0.8rem;
+    }
+    .hero-subtitle {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.6rem;
+    }
+    .hero-buttons .btn {
+        font-size: 0.85rem;
+        padding: 0.65rem 1rem;
+    }
+    
+    /* Section titles */
+    .section-header h2 {
+        font-size: 1.25rem;
+    }
+    .section-badge {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.75rem;
+    }
+    
+    /* Doctor cards */
+    .doctor-avatar {
+        width: 90px;
+        height: 90px;
+    }
+    .doctor-card h3 {
+        font-size: 1.05rem;
+    }
+    
+    /* Emergency banner */
+    .emergency-banner {
+        padding: 2rem 0;
+    }
+    .emergency-banner h2 {
+        font-size: 1.15rem;
+    }
+    .emergency-banner .btn {
+        font-size: 0.85rem;
+        padding: 0.65rem 1.25rem;
+    }
+    
+    /* Notice alert */
+    .notice-alert {
+        padding: 0.75rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    /* Buttons */
+    .btn-lg {
+        padding: 0.65rem 1.25rem;
+        font-size: 0.9rem;
+    }
+    
+    /* About */
+    .about-content h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* ---- Very Small Mobile (360px) ---- */
+@media (max-width: 360px) {
+    .container {
+        padding: 0 0.75rem;
+    }
+    .hero-title {
+        font-size: 1.1rem;
+    }
+    .hero-text {
+        font-size: 0.75rem;
+    }
+    .hero-buttons .btn {
+        font-size: 0.8rem;
+        padding: 0.6rem 0.85rem;
+    }
+    .hero-slider-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 0.75rem;
+    }
+    .stat-card h3 {
+        font-size: 1.4rem;
+    }
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .top-bar {
+        font-size: 0.75rem;
+        padding: 0.35rem 0;
+    }
+}
+
+/* ============================================
+   GLOBAL OVERFLOW PREVENTION
+   ============================================ */
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Prevent any inline width from breaking */
+* {
+    max-width: 100vw;
+}
+
+.container, .hero-content, .hero-slide, footer, section, nav {
+    max-width: 100%;
+}
+
+/* Fix for any inline grid styles on gallery sections */
+.gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+}
+
+@media (max-width: 576px) {
+    .gallery-grid {
+        grid-template-columns: 1fr !important;
+    }
+    /* All inline aspect-ratio 4/3 gallery items */
+    .gallery-item {
+        aspect-ratio: 16/9 !important;
     }
 }
 
 /* Print styles */
 @media print {
-    .top-bar, .header, .whatsapp-float, .scroll-to-top, .footer, .emergency-banner {
+    .top-bar, .header, .whatsapp-float, .scroll-to-top, .footer, .emergency-banner, .hero-slider-btn, .hero-slider-dots {
         display: none !important;
     }
-    .hero {
+    .hero-slider-section {
         background: white !important;
-        color: black !important;
+        min-height: auto;
+    }
+    .hero-slide {
         min-height: auto;
         padding: 2rem 0;
     }

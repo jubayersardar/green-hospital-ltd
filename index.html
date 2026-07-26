@@ -455,7 +455,7 @@
                 <h2 class="section-title">আমাদের সেবা নিয়ে তারা কি বলেন</h2>
             </div>
             
-            <div class="doctors-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="doctors-grid">
                 <article class="testimonial-card">
                     <div class="stars" style="color: #ffc107; margin-bottom: 1rem;" aria-label="5 star rating">
                         <i class="fa-solid fa-star"></i>
@@ -507,12 +507,12 @@
             <div class="section-header">
                 <span class="section-badge">গ্যালারি</span>
                 <h2 class="section-title">হাসপাতালের বাস্তব পরিবেশ ও সুযোগ-সুবিধা</h2>
-                <p style="max-width: 650px; margin: 0 auto; color: #666;">আমাদের আধুনিক বহুতল ভবন, রিসেপশন, ওয়েটিং লাউঞ্জ, ডায়াগনস্টিক ল্যাব ও উন্নত পরিবেশের বাস্তব চিত্র</p>
+                <p style="max-width: 650px; margin: 0 auto; color: var(--clr-text-light);">আমাদের আধুনিক বহুতল ভবন, রিসেপশন, ওয়েটিং লাউঞ্জ, ডায়াগনস্টিক ল্যাব ও উন্নত পরিবেশের বাস্তব চিত্র</p>
             </div>
             
-            <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem;">
+            <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem;">
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/hospital-building-real.jpg" alt="Faridpur Green Hospital Building" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/hospital-building-real.jpg" alt="Faridpur Green Hospital Building" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-building"></i> মূল হাসপাতাল ভবন</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">কবি জসিম উদ্দিন রোড, আলিপুর, ফরিদপুর</p>
@@ -520,7 +520,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/reception-desk.jpg" alt="Reception Desk" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/reception-desk.jpg" alt="Reception Desk" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-concierge-bell"></i> রিসেপশন ও তথ্য কেন্দ্র</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">২৪/৭ সহায়তা ডেস্ক</p>
@@ -528,7 +528,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/waiting-lounge.jpg" alt="Patient Waiting Lounge" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/waiting-lounge.jpg" alt="Patient Waiting Lounge" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-couch"></i> রোগী ও স্বজন ওয়েটিং লাউঞ্জ</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">আরামদায়ক এসি ওয়েটিং এরিয়া</p>
@@ -536,7 +536,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/doctor-consultation.jpg" alt="Doctor Consultation Chamber" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/doctor-consultation.jpg" alt="Doctor Consultation Chamber" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-user-md"></i> ডাক্তার কনসালট্যান্ট চেম্বার</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">বিশেষজ্ঞ পরামর্শ সেবা</p>
@@ -544,7 +544,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/diagnostic-machine.jpg" alt="Diagnostic Machine" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/diagnostic-machine.jpg" alt="Diagnostic Machine" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-microscope"></i> ডিজিটাল ল্যাব যন্ত্রপাতি</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">স্বয়ংক্রিয় বায়োকেমিস্ট্রি এনালাইজার</p>
@@ -552,7 +552,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/xray-room.jpg" alt="Digital X-Ray Machine" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/xray-room.jpg" alt="Digital X-Ray Machine" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-x-ray"></i> ডিজিটাল এক্স-রে বিভাগ</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">উচ্চ ক্ষমতার ডিজিটাল ইমেজিং</p>
@@ -560,7 +560,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/pharmacy-counter.jpg" alt="Pharmacy Counter" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/pharmacy-counter.jpg" alt="Pharmacy Counter" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-pills"></i> ২৪ ঘণ্টা ফার্মেসি কাউন্টার</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">জরুরি ওষুধ সরবরাহ</p>
@@ -568,7 +568,7 @@
                 </div>
 
                 <div class="gallery-item" style="position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); aspect-ratio: 4/3; background: #f0f0f0;">
-                    <img src="images/elevator-lobby.jpg" alt="Elevator &amp; Corridor" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+                    <img src="images/elevator-lobby.jpg" alt="Elevator &amp; Corridor" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s;">
                     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; padding: 1.5rem 1rem 1rem;">
                         <h4 style="margin: 0; color: white; font-size: 1.05rem;"><i class="fa-solid fa-elevator"></i> আধুনিক লিফট ও করিডোর</h4>
                         <p style="margin: 0.2rem 0 0; font-size: 0.8rem; opacity: 0.9;">সহজ যাতায়াত ব্যবস্থা</p>

@@ -17,6 +17,7 @@
             mobileMenuBtn.querySelector('i').className = isActive 
                 ? 'fa-solid fa-times' 
                 : 'fa-solid fa-bars';
+            document.body.style.overflow = isActive ? 'hidden' : '';
         });
 
         // Close menu when clicking a link
@@ -26,6 +27,7 @@
                     navLinks.classList.remove('active');
                     mobileMenuBtn.setAttribute('aria-expanded', 'false');
                     mobileMenuBtn.querySelector('i').className = 'fa-solid fa-bars';
+                    document.body.style.overflow = '';
                 }
             });
         });
@@ -36,6 +38,7 @@
                 navLinks.classList.remove('active');
                 mobileMenuBtn.setAttribute('aria-expanded', 'false');
                 mobileMenuBtn.querySelector('i').className = 'fa-solid fa-bars';
+                document.body.style.overflow = '';
             }
         });
     // ===== Hero Slider =====
@@ -104,18 +107,28 @@
         // Touch swipe support for mobile
         let touchStartX = 0;
         let touchEndX = 0;
+        let touchStartY = 0;
+        let touchEndY = 0;
 
         heroSlider.addEventListener('touchstart', (e) => {
             touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
             stopAutoSlide();
         }, { passive: true });
 
         heroSlider.addEventListener('touchend', (e) => {
             touchEndX = e.changedTouches[0].screenX;
-            if (touchStartX - touchEndX > 50) {
-                nextSlide();
-            } else if (touchEndX - touchStartX > 50) {
-                prevSlide();
+            touchEndY = e.changedTouches[0].screenY;
+            
+            const diffX = touchStartX - touchEndX;
+            const diffY = touchStartY - touchEndY;
+            
+            if (Math.abs(diffX) > 50 && Math.abs(diffX) > Math.abs(diffY)) {
+                if (diffX > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
             }
             startAutoSlide();
         }, { passive: true });

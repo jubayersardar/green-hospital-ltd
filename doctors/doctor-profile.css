@@ -178,7 +178,9 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     border-left: 4px solid var(--clr-primary);
     display: inline-block;
-    min-width: 280px;
+    min-width: 0;
+    width: 100%;
+    max-width: 320px;
 }
 
 .schedule-header {
@@ -216,7 +218,7 @@
 
 .doctor-cta-buttons .btn {
     flex: 1;
-    min-width: 200px;
+    min-width: 160px;
 }
 
 /* Detail Sections */
@@ -676,6 +678,35 @@
 @media (max-width: 480px) {
     .other-doctors-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 360px) {
+    .doctor-profile-hero {
+        padding: 1.5rem 0;
+        margin-top: 80px;
+    }
+    .doctor-profile-name {
+        font-size: 1.4rem;
+    }
+    .doctor-profile-name-en {
+        font-size: 0.95rem;
+    }
+    .detail-card {
+        padding: 1rem;
+    }
+    .detail-card-title {
+        font-size: 1.1rem;
+    }
+    .doctor-bio {
+        font-size: 0.9rem;
+    }
+    .qualification-pill {
+        font-size: 0.75rem;
+        padding: 4px 10px;
+    }
+    .sidebar-card {
+        padding: 1rem;
     }
 }
 
